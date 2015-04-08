@@ -1,6 +1,6 @@
 {
   "name": "vue-translate-mixin",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Translation mixin for Vue.js",
   "main": "index.js",
   "scripts": {
