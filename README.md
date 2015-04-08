@@ -1,10 +1,10 @@
-# vue-translate-mixin
+# vue-i18n-mixin
 
-Simple translation mixin for Vue.js
+Simple internationalisation mixin for Vue.js
 
 ## Installation
 
-`npm install --save vue-translate-mixin`
+`npm install --save vue-i18n-mixin`
 
 ## Usage
 
@@ -13,7 +13,7 @@ Simple translation mixin for Vue.js
 ```js
 var root = new Vue({
 	mixins: [
-		require('vue-translate-mixin')
+		require('vue-i18n-mixin')
 	],
 
 	data: {
@@ -44,6 +44,9 @@ var root = new Vue({
 
 		// You can force a locale
 		title = this.translate('header.title', 'fr'); // Will return 'Bonjour'
+
+		// You can use the shorthand
+		title = this.t('header.title')
 	}
 });
 ```
@@ -53,7 +56,9 @@ var root = new Vue({
 ```html
 <h1 v-text="translate('header.title')"></h1>
 
-<h1 v-text="translate('header.title', 'fr')"></h1>
+<h1 v-text="t('header.title')"></h1>
 
-<h1>{{ translate('header.title') }}</h1>
+<h1 v-text="t('header.title', 'fr')"></h1>
+
+<h1>{{ t('header.title') }}</h1>
 ```
