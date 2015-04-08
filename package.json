@@ -1,0 +1,28 @@
+{
+  "name": "vue-translate-mixin",
+  "version": "1.0.0",
+  "description": "Translation mixin for Vue.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rayfranco/vue-translate-mixin"
+  },
+  "keywords": [
+    "translation",
+    "translate",
+    "mixin",
+    "vuejs",
+    "vue",
+    "lang",
+    "international"
+  ],
+  "author": "rayfranco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rayfranco/vue-translate-mixin/issues"
+  },
+  "homepage": "https://github.com/rayfranco/vue-translate-mixin"
+}
